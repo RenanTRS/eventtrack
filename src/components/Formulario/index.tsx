@@ -7,7 +7,7 @@ import style from './Formulario.module.scss';
 
 const Formulario: React.FC = () => {
 
-  const setListaDeEventos = useSetRecoilState<IEvento[]>(listaDeEventosState)
+  const setListaDeEventos = useSetRecoilState<IEvento[]>(listaDeEventosState) //SetState
 
   const [descricao, setDescricao] = useState('')
   const [dataInicio, setDataInicio] = useState('')
